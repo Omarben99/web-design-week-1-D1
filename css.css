@@ -1,0 +1,43 @@
+01 Selezionare l'<h1> nella sezione "hero" (jumbotron):
+.jumbotron h1
+
+02 Selezionare tutti i figli dell'elemento navbar:
+.nav > *
+
+03 Selezionare il link "Continua a leggere" del jumbotron:
+.jumbotron a.font-weight-bold
+
+
+04 Selezionare il primo blog post:
+.blog-post:first-of-type
+
+05 Selezionare l'<hr> del primo blog post e colorarlo di rosso:
+.blog-post:first-of-type hr {
+    color: red;
+}
+
+06 Selezionare i link pari della navbar:
+.nav span:nth-child(even)
+
+07 Selezionare tutti gli <li> della prima "ordered-list" della sidebar ("Archivio"):
+.blog-sidebar ol:first-of-type li
+
+08 Selezionare l'autore del secondo blog post:
+.blog-post:nth-of-type(2) .blog-post-meta a
+
+09 Selezionare il secondo <li> della lista del terzo blog post:
+.blog-post:nth-of-type(3) ul li:nth-of-type(2)
+
+10 Selezionare il link "Torna su" a fondo pagina:
+a.float-right
+
+11 Selezionare il bottone "Nuovi" che trovi in basso:
+.blog-pagination a.btn-outline-secondary
+
+12 Selezionare il secondo link del footer:
+.blog-footer a:nth-of-type(2)
+
+
+
+
+
